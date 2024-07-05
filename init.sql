@@ -1,0 +1,22 @@
+CREATE TABLE if NOT EXISTS vacancies (
+    id VARCHAR(255) PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    country VARCHAR(255),
+    city VARCHAR(255),
+    salary_from INT,
+    salary_to INT,
+    currency VARCHAR(10),
+    gross BOOLEAN,
+    type_id VARCHAR(10),
+    experience_id VARCHAR(40),
+    schedule_id VARCHAR(40),
+    employment_name VARCHAR(255),
+    description TEXT,
+    key_skills TEXT,
+    accept_handicapped BOOLEAN,
+    accept_kids BOOLEAN,
+    employer_name VARCHAR(255),
+    alternate_url VARCHAR(255),
+    languages VARCHAR(255),
+    professional_role VARCHAR(255)
+);
